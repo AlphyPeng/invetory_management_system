@@ -43,8 +43,9 @@
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <p class="m-0 text-secondary text-center">Don't have an account? <a
-                                                    href="#!" class="link-primary text-decoration-none">Sign up</a></p>
+                                            <p class="m-0 text-secondary text-center">Don't have an account? <RouterLink
+                                                    to="/registration">Sign Up</RouterLink>
+                                            </p>
                                         </div>
                                     </div>
                                 </form>

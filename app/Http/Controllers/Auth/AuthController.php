@@ -29,7 +29,6 @@ class AuthController extends Controller
             'contact' => ['required', 'regex:/^(09|\+639)\d{9}$/'],
         ]);
 
-
         DB::beginTransaction();
 
         try {
